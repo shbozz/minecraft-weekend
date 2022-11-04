@@ -36,7 +36,7 @@ static void tick(struct ControlComponent *c_control, struct Entity entity) {
         c_movement->flags.flying = !c_movement->flags.flying;
     }
 
-    if (state.window->keyboard.keys[GLFW_KEY_K].pressed_tick) {
+    if (state.window->keyboard.keys[GLFW_KEY_M].pressed_tick) {
         mouse_switch = true;
     }
 

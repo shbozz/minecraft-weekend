@@ -90,6 +90,7 @@ void update() {
     // mouse toggle (ESC)
     if (state.window->keyboard.keys[GLFW_KEY_ESCAPE].pressed) {
         mouse_set_grabbed(!mouse_get_grabbed());
+        system(./pause);
         
     }
 }
