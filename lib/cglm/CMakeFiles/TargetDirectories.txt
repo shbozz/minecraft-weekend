@@ -1,0 +1,9 @@
+/home/eve/minecraft-weekend/lib/cglm/CMakeFiles/install/strip.dir
+/home/eve/minecraft-weekend/lib/cglm/CMakeFiles/install/local.dir
+/home/eve/minecraft-weekend/lib/cglm/CMakeFiles/edit_cache.dir
+/home/eve/minecraft-weekend/lib/cglm/CMakeFiles/package_source.dir
+/home/eve/minecraft-weekend/lib/cglm/CMakeFiles/install.dir
+/home/eve/minecraft-weekend/lib/cglm/CMakeFiles/list_install_components.dir
+/home/eve/minecraft-weekend/lib/cglm/CMakeFiles/rebuild_cache.dir
+/home/eve/minecraft-weekend/lib/cglm/CMakeFiles/package.dir
+/home/eve/minecraft-weekend/lib/cglm/CMakeFiles/cglm.dir
