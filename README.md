@@ -1,8 +1,4 @@
-# Minecraft, but I made it in 48 hours*
-
-\* I've actually updated it since - [see this commit for the 48 hour version](https://github.com/jdah/minecraft-weekend/tree/cb19738305804b5734faa7118c1c784f26ff9463).
-
-![screenshot](screenshots/1.png)
+## Minecraft, but it's for UNIX systems (and runs really fast)
 
 #### Features:
 - Infinite, procedurally generated world
@@ -17,21 +13,14 @@
 - Distance fog
 - A whole lot of different block types
 - More
+ 
+#### To compile
 
-#### Building
-
-##### Unix-like
-`$ git clone --recurse-submodules https://github.com/jdah/minecraft-weekend.git`\
+##### Unix-like systems
+`$ git clone --recurse-submodules https://gitlab.gnome.org/shbozz/mimecraft.git`\
 `$ make`
 
-The following static libraries under `lib/` must be built before the main project can be built:
-
-- GLAD `lib/glad/src/glad.o`
-- CGLM `lib/cglm/.libs/libcglm.a`
-- GLFW `lib/glfw/src/libglfw3.a`
-- libnoise `lib/noise/libnoise.a`
-
-All of the above have their own Makefile under their respective subdirectory and can be built with `$ make libs`.
+Make sure to run `$ make libs` on first compile.
 If libraries are not found, ensure that submodules have been cloned.
 
 The game binary, once built with `$ make`, can be found in `./bin/`.
@@ -40,5 +29,8 @@ The game binary, once built with `$ make`, can be found in `./bin/`.
 If you are getting "cannot open file" errors (such as "cannot find ./res/shaders/*.vs"), this is the issue. 
 
 ##### Windows
+Use WSL you can install WSL/Ubuntu from the command line using `wsl --install` or from the microsoft store,
+Ubuntu works best. 
 
-good luck 🤷‍♂️ probably try building under WSL and using an X environment to pass graphics through.
+If you encounter issues update your Ubuntu `$ sudo apt upgrade` `$ sudo apt update`. 
+You should also install these: `sudo apt install clang cmake make xorg-dev libglu1-mesa-dev doxygen libx11-dev`.
